@@ -56,14 +56,12 @@ body {
 #minute {
     position: absolute;
     height: 9rem;
-    animation: rotate 3600s infinite steps(60);
 }
 
 #second {
     background-color: red;
     height: 9rem;
     z-index: 3;
-    animation: rotate 60s infinite steps(60);
 }
 
 
