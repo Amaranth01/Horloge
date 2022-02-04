@@ -11,7 +11,6 @@ function date () {
 
     let hrs = new Date().getHours()
     hrsReel.style.transform = "rotate(" + (hrs * 30) + "deg)";
-    console.log(seconds);
 }
 
 setInterval(date, 1000);

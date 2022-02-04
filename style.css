@@ -23,11 +23,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border: darkred 6px double;
+    background-image: url("Ares.png");
     border-radius: 50%;
+    border: darkred 6px double;
     width: 20rem;
     height: 20rem;
-    background-image: url("Ares.png");
     background-size: cover;
     margin-top: 8rem;
     z-index: -1;
@@ -41,10 +41,10 @@ body {
 
 #hour, #minute, #second {
     position: absolute;
+    transform-origin: 50% 100%;
     width: 0.3rem;
     background-color: white;
     z-index: 2;
-    transform-origin: 50% 100%;
 }
 
 #hour {
@@ -54,7 +54,6 @@ body {
 }
 
 #minute {
-    position: absolute;
     height: 9rem;
 }
 
